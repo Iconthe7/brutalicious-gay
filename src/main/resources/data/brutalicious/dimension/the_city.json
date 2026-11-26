@@ -1,0 +1,17 @@
+{
+  "type": "brutalicious:eternal_night",
+  "generator": {
+        "type": "brutalicious:city",
+        "biome_source": {
+          "type": "brutalicious:city",
+          "sprawl": "brutalicious:concrete_sprawl",
+          "monolith": "brutalicious:monolith_district",
+          "undercroft": "brutalicious:undercroft",
+          "cistern": "brutalicious:cistern",
+          "reservoir": "brutalicious:reservoir",
+          "settlement": "brutalicious:settlement",
+          "blackout": "brutalicious:blackout",
+          "exclusion": "brutalicious:exclusion_zone"
+        }
+      }
+}

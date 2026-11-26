@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "brutalicious",
+  "version": "${version}",
+  "name": "Brutalicious",
+  "description": "An endless, decaying brutalist megacity. Raw concrete, streets in the sky, and something beneath the city.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["brutalicious.Brutalicious"],
+    "client": ["brutalicious.client.BrutaliciousClient"]
+  },
+  "mixins": ["brutalicious.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "brutalicious.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["client.FogRendererMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
