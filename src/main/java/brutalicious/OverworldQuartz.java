@@ -17,7 +17,6 @@ import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.levelgen.GenerationStep;
 
-/** Quartz ore block, item, creative-tab entry and Overworld generation (data in data/brutalicious/worldgen/). */
 public final class OverworldQuartz {
     private OverworldQuartz() {}
 
