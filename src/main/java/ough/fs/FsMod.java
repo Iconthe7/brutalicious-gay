@@ -37,7 +37,7 @@ public class FsMod implements ModInitializer {
 	public void onInitialize() {
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.NATURAL_BLOCKS).register(entries -> entries.accept(OVERWORLDQUARTZ_ITEM));
 
-		// The feature itself is data-driven: data/fs/worldgen/{configured,placed}_feature/overworldquartz.json
+
 		BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Decoration.UNDERGROUND_ORES,
 				ResourceKey.create(Registries.PLACED_FEATURE, OVERWORLDQUARTZ_ID));
 	}
